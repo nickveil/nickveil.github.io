@@ -7,7 +7,7 @@ LinkedIn - https://linkedin.com/in/nicholas-veil
 
 Stack Overflow - https://stackoverflow.com/users/8492242/nveil?tab=profile
 
-GitHub - https://nickveil.github.io
+GitHub - https://github.com/nickveil
 
 Twitter - https://twitter.com/NickVeil
 
