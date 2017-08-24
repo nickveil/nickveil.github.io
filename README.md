@@ -3,10 +3,11 @@ Awesome Work
 
 Social Links:
 
-LinkedIn - linkedin.com/in/nicholas-veil
+LinkedIn - https://linkedin.com/in/nicholas-veil
 
 Stack Overflow - https://stackoverflow.com/users/8492242/nveil?tab=profile
 
-GitHub - nickveil.github.io
+GitHub - https://nickveil.github.io
 
 Twitter - https://twitter.com/NickVeil
+
