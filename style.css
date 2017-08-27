@@ -1,0 +1,39 @@
+*{
+	
+}
+
+body{
+	background-color: #F8F8FF;
+	font-family: "Roboto Slab",times;
+	font-size: 15px;
+	font-weight: light;
+	padding: 50px;
+}
+
+h1{
+	color: #DC143C;
+	font-family: "Roboto Condensed", times;
+	text-transform: uppercase;
+	font-size: 32px;
+}
+
+h2{
+	color: #DC143C;
+	font-family: "Roboto Condensed", times;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+p{
+  padding: 5px;
+}
+
+a{
+	color: #A9A9A9;
+  padding: 5px;
+}
+
+img.image{
+	border-radius: 15%;
+	display: inline-block;
+	width: 15%
+}
