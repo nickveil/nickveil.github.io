@@ -24,7 +24,8 @@ h2{
 	font-size: 18px;
 }
 p{
-  padding: 5px;
+  	min-width: 200px;
+  	max-width: 1000px;
 }
 
 a{
@@ -35,5 +36,6 @@ a{
 img.image{
 	border-radius: 15%;
 	display: inline-block;
-	width: 15%
+	width: 15%;
+	
 }
