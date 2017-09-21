@@ -1,31 +1,19 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Nick Veil</title>
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Slab">
-
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
-		<div class="header">
-			<h1 id="head">about me</h1>
-		
+---
+layout: default
+title: About Me!
+---
+		<div id="home">
+			<h2>Blog Posts</h2>
+			<ul>{% for post in site.posts %}
+			    <li><span>{{ post.date | date_to_string}}</span>&raquo;
+			      <a href="{{ post.url }}">{{ post.title }}</a>
+			    </li>
+			  {% endfor %}
+			</ul>
 		
 			<img class="image" src="https://github.com/nickveil/nickveil.github.io/blob/master/aboutme_pic.jpg?raw=true"/>
-		</div>
+		
 		<div class="main">
 			<p> Hi everyone, this is Nick Veil and I’m thrilled to be pursuing new opportunities and a new career in the world of programming. I bring along my past experiences in management, customer service and manufacturing from the sports entertainment, large equipment and energy industries. I enjoy traveling with my wife, watching my children compete in after school sports, playing with my two dogs, and am an avid <a href="http://www.soonersports.com/SportSelect.dbml?DB_OEM_ID=31000&SPID=127245&SPSID=750323&DB_OEM_ID=31000&_ga=2.29758975.1750624883.1503872047-1470235193.1503872047">Oklahoma Sooner football</a> fan. I’m excited to discover what this new journey has in store!</p>
 		</div>
-		<div class="footer">
-			<div class="f-head">
-				<h2>social links</h2>
-			</div>
-			<div class="f-list">
-				<a href="https://linkedin.com/in/nicholas-veil" target="_blank"<li>LinkedIn</li></a>
-				<a href="https://stackoverflow.com/users/8492242/nveil?tab=profile" target="_blank"<li>Stack Overflow</li></a> 
-				<a href="https://github.com/nickveil" target="_blank"<li>GitHub</li></a> 
-				<a href="https://twitter.com/NickVeil" target="_blank"<li>Twitter</li></a> 			
-			</div>
-		</div>
-	</body>
-</html>
+		
