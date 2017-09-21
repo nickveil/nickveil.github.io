@@ -3,7 +3,7 @@
 }
 
 body{
-	background-color: #fff;
+	background-color: #A9A9A9;
 	font-family: "Roboto Slab",times;
 	font-size: 15px;
 	font-weight: light;
@@ -37,6 +37,6 @@ a{
 img.image{
 	border-radius: 15%;
 	display: inline-block;
-	max-width: 200px;
+	max-width: 150px;
 	padding: 10px;
 }
