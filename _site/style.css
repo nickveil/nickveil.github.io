@@ -21,7 +21,7 @@ h2{
 	color: #990000;
 	font-family: "Roboto Condensed", times;
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 16px;
 }
 p{
   	min-width: 200px;
@@ -30,13 +30,14 @@ p{
 }
 
 a{
-	color: #000;
+	color: #F8F8FF;
   	padding: 10px;
 }
 
 img.image{
 	border-radius: 15%;
-	display: inline-block;
+	display: block;
 	max-width: 150px;
 	padding: 10px;
+	position: center;
 }
