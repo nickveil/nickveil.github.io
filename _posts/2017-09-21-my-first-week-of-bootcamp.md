@@ -25,7 +25,7 @@ It’s going to be fun and challenging during the remaining 11 weeks.
 
 Higlights: Core value training, Awesome Inc. apparel, gulp
 
-Topics: HTML, CSS, BootStrap,Sass,Gulp, Jekyll, Github
+Topics: HTML, CSS, BootStrap,Sass,Gulp, Jekyll, Github, Heroku
 
 
 
