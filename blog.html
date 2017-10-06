@@ -4,19 +4,13 @@ title: My Blog
 ---
 		
 
-
-		<div class="header">
-			<h1 id="head">My Blog</h1>
-		</div>
-		<div id="home">
-			
 		
 			
 		
-		<div class="main">
-			<p> Hey everyone, here are my thoughts on interesting things. Check it out.</p>
-
-			<h2>Blog Posts</h2>
+		<div class="container blog">
+		
+			<h1 class="display-2">Webdev MicroBrew</h1>
+			<p> Further understanding of Bootcamp</p>
 			<ul>{% for post in site.posts %}
 			    <li><span>{{ post.date | date_to_string}}</span>&raquo;
 			      <a href="{{ post.url }}">{{ post.title }}</a>
