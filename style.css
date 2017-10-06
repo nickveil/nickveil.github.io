@@ -1,3 +1,7 @@
+body{
+  position: relative;
+}
+
 .bg {
   position: fixed;
   width: 101%;
@@ -7,15 +11,43 @@
 }
 
 .jumbotron {
-  margin-bottom: 45px;
-  height: 750px;
+  margin-bottom: 200px;
+  height: 800px;
   color: white;
   text-shadow: black 0.3em 0.3em 0.3em;
   background:url(https://github.com/nickveil/nickveil.github.io/blob/master/_assets/Keyboard.jpg?raw=true);
-  opacity: 0.5;
+  opacity: 0.7;
+  z-index: -1;
 }
 
 .header-align{
   margin-top: 175px;
- /* opacity: 0.9;*/
+  opacity: 0.9 !important;
+}
+
+.portfolio, .about{
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.footer{
+  text-align: center;
+}
+.fa{
+  margin: 5px 15px;
+}
+.dropdown-menu{
+  align-items: right;
+}
+.about p{
+  padding-top: 50px;
+}
+.col-sm-2,{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.col-sm-8{
+  margin-right: 15px;
+  margin-left: 15px;
+  float: right;
 }
