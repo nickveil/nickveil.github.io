@@ -1,5 +1,6 @@
 body{
   position: relative;
+
 }
 
 .bg {
@@ -11,22 +12,26 @@ body{
 }
 
 .jumbotron {
-  margin-bottom: 200px;
-  height: 800px;
-  color: white;
-  text-shadow: black 0.3em 0.3em 0.3em;
-  background:url(https://github.com/nickveil/nickveil.github.io/blob/master/_assets/Keyboard.jpg?raw=true);
-  opacity: 0.7;
-  z-index: -1;
+
+  height: 750px;
+  color: #353a41;
+  text-shadow: white 0.1em 0.1em 0.3em;
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(215,215,215,1)), url(https://github.com/nickveil/nickveil.github.io/blob/master/_assets/Keyboard.jpg?raw=true);
+  font-family: 'Palanquin', sans-serif;
+  margin-bottom:0px;
+}
+
+.dropdown{
+  color: #456ef9;
 }
 
 .header-align{
-  margin-top: 175px;
-  opacity: 0.9 !important;
+  margin-top: 25px;
+  
 }
 
 .portfolio, .about{
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-top: 50px;
 }
 
@@ -34,7 +39,29 @@ body{
   margin-bottom: 100px;
   margin-top: 150px;
 }
+.profilePic{
+  
+  width: 300px;
+  height:300px;
+  border-radius: 50%;
 
+}
+.lead{
+  margin-left: 40px;
+}
+.profilePicDiv{
+  width: 300px;
+  height: 300px;
+  background-image: url("https://github.com/nickveil/nickveil.github.io/blob/master/_assets/profile%202.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 55% 5%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #353a41;
+  display: inline-block;
+}
 
 .footer{
   text-align: center;
@@ -61,4 +88,15 @@ body{
 
 ul{
   list-style-type: none;
+    font-family: 'Palanquin', sans-serif;
+}
+#portfolio{
+  background-color: #353a41;
+  color: white;
+  margin: 0px;
+  padding: 60px 0px;
+}
+#contact{
+  margin: 60px 0px;
+  padding: 60px 0px;
 }

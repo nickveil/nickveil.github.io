@@ -3,3 +3,4 @@ cmdline_of_Jekyll.txt
 _site/
 .sass-cache/
 .jekyll-metadata
+node_modules

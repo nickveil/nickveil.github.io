@@ -12,26 +12,28 @@
 		
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
+		<link href="https://fonts.googleapis.com/css?family=Palanquin" rel="stylesheet">
+
 		<link rel="stylesheet" type="text/css" href="/style.css">
 
 	</head>
 	
 	<body>
-		<nav class="navbar sticky-top navbar-expand-xl navbar-dark bg-dark">
-		  <a class="navbar-brand" href="https://nickveil.github.io/">Home</a>
+		<nav id="navbar-example2" class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
+		  <a class="navbar-brand" href="#">Nick Veil</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-		    <ul class="navbar-nav">
+		    <ul class="nav">
 		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
+		        <a class="nav-link" href="#portfolio">Portfolio<span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Contact</a>
+		        <a class="nav-link" href="#contact">Contact</a>
 		      </li>
 		      <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		        <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		          More Info
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -40,16 +42,7 @@
 		        </div>
 		      </li>
 		    </ul>
-		  </div>
-		</nav>
 
-
-			{{ content }}
-
-
-		
-		<div class="container footer">
-			<div class="row footer">
 				<div class="col align-items-center">
 					<div class="links">
 					
@@ -59,12 +52,23 @@
 					<a href="https://twitter.com/NickVeil"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
 				</div>
 
+
+		  </div>
+		</nav>
+
+
+			{{ content }}
+
+
+		
+		<div class="container footer">
+			<div class="row footer text-center">
+				
+
 			
 			
-				<div class="row footer copyright">
-					<div class="col">
-						<p>© 2017 Nick Veil</p>
-					</div>				
+				<div class="row footer copyright text-center">
+						<p class="text-center">© 2017 Nick Veil</p>				
 				</div>
 			</div>
 		</div>

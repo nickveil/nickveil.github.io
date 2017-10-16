@@ -1,0 +1,25 @@
+{
+  "name": "nickveil.github.io",
+  "version": "1.0.0",
+  "description": "Awesome Work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickveil/nickveil.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickveil/nickveil.github.io/issues"
+  },
+  "homepage": "https://github.com/nickveil/nickveil.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.3",
+    "lodash": "^4.17.4"
+  }
+}
