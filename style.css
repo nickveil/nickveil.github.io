@@ -1,7 +1,12 @@
+/**{
+  border: 1px solid #ccc;
+}*/
+
 body{
   position: relative;
 
 }
+
 
 .bg {
   position: fixed;
@@ -13,12 +18,19 @@ body{
 
 .jumbotron {
 
-  height: 750px;
-  color: #353a41;
-  text-shadow: white 0.1em 0.1em 0.3em;
+  min-height: 850px;
+  height: auto;
+  
+  
   background:linear-gradient(rgba(0,0,0,0.3),rgba(215,215,215,1)), url(https://github.com/nickveil/nickveil.github.io/blob/master/_assets/Keyboard.jpg?raw=true);
-  font-family: 'Palanquin', sans-serif;
+  
   margin-bottom:0px;
+}
+.jumbotron p, .jumbotron h1 {
+  color: #353a41;
+  font-family: 'Palanquin', sans-serif;
+  text-shadow: white 0.1em 0.1em 0.1em;
+  margin-left: 40px;
 }
 
 .dropdown{
@@ -46,9 +58,7 @@ body{
   border-radius: 50%;
 
 }
-.lead{
-  margin-left: 40px;
-}
+
 .profilePicDiv{
   width: 300px;
   height: 300px;
@@ -73,8 +83,12 @@ body{
   align-items: right;
 }
 .about p{
-  padding-top: 50px;
+  margin-top: 50px;
 }
+.about img {
+  margin-top: 70px;
+}
+
 .col-sm-2,{
   margin-right: 15px;
   margin-left: 15px;
@@ -85,18 +99,31 @@ body{
   margin-left: 15px;
   float: right;
 }
+.email{
+  text-align: right;
+}
 
 ul{
   list-style-type: none;
     font-family: 'Palanquin', sans-serif;
 }
 #portfolio{
+  min-height: 950px;
+  height:auto;
   background-color: #353a41;
   color: white;
   margin: 0px;
   padding: 60px 0px;
 }
 #contact{
+  min-height: 800px;
+  height:auto;
   margin: 60px 0px;
   padding: 60px 0px;
+}
+.contactInfo{
+  margin:auto;
+  display: inline-block;
+
+}
 }
