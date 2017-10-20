@@ -7,6 +7,10 @@ body{
 
 }
 
+p{
+  font-size: 24px;
+}
+
 
 .bg {
   position: fixed;
@@ -16,23 +20,44 @@ body{
   z-index: -1;
 }
 
+.jumbotron .links{
+  margin:auto;
+  width: auto;
+  display: inline-flex;
+
+}
+.jumbotron .links a{
+  margin:15px auto;
+  color: #007bff;
+}
+
+.jumbotron .btn-primary{
+  display: inline-flex;
+  margin:auto;
+  width:auto;
+}
+
+
 .jumbotron {
 
-  min-height: 850px;
+  min-height: 900px;
   height: auto;
-  
-  
-  background:linear-gradient(rgba(0,0,0,0.3),rgba(215,215,215,1)), url(https://github.com/nickveil/nickveil.github.io/blob/master/_assets/Keyboard.jpg?raw=true);
-  
+  background:linear-gradient(rgba(155,155,155,0.3),rgba(255,255,255,1)), url(https://github.com/nickveil/nickveil.github.io/blob/master/_assets/Keyboard.jpg?raw=true);
   margin-bottom:0px;
 }
 .jumbotron p, .jumbotron h1 {
   color: #353a41;
   font-family: 'Palanquin', sans-serif;
-  text-shadow: white 0.1em 0.1em 0.1em;
+  text-shadow: white 2px 2px 1px;
+  margin-left: 40px;
+}
+.jumbotron a{
   margin-left: 40px;
 }
 
+.jumbotron .row .btn{
+  margin-top: 40px;
+}
 .dropdown{
   color: #456ef9;
 }
@@ -77,11 +102,9 @@ body{
   text-align: center;
 }
 .fa{
-  margin: 5px 15px;
+  margin: 5px 10px;
 }
-.dropdown-menu{
-  align-items: right;
-}
+
 .about p{
   margin-top: 50px;
 }
