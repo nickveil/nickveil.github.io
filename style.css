@@ -38,6 +38,10 @@ p{
   width:auto;
 }
 
+strong{
+  color: #007bff;
+
+}
 
 .jumbotron {
 
@@ -49,7 +53,7 @@ p{
 .jumbotron p, .jumbotron h1 {
   color: #353a41;
   font-family: 'Palanquin', sans-serif;
-  text-shadow: white 2px 2px 1px;
+  text-shadow: #ccc 2px 2px 1px;
   margin-left: 40px;
 }
 .jumbotron a{
