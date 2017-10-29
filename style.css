@@ -12,6 +12,11 @@ p{
 
 }
 
+.description{
+  font-size: 18px;
+  max-width: 600px; 
+}
+
 
 .bg {
   position: fixed;
