@@ -1,0 +1,163 @@
+/**{
+  border: 1px solid #ccc;
+}*/
+
+body{
+  position: relative;
+
+
+}
+
+p{
+  font-size: 16px;
+
+}
+
+.description{
+  font-size: 18px;
+  max-width: 600px; 
+}
+
+
+.bg {
+  position: fixed;
+  width: 101%;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.jumbotron .links{
+  margin:auto;
+  width: auto;
+  display: inline-flex;
+
+}
+.jumbotron .links a{
+  margin:15px auto;
+  color: #007bff;
+}
+
+.jumbotron .btn-primary{
+  display: inline-flex;
+  margin:auto;
+  width:auto;
+}
+
+strong{
+  color: #aaa;
+
+}
+
+.jumbotron {
+
+  min-height: 900px;
+  height: auto;
+  background:linear-gradient(rgba(155,155,155,0.3),rgba(255,255,255,1)), url(https://github.com/nickveil/nickveil.github.io/blob/master/_assets/Keyboard.jpg?raw=true);
+  margin-bottom:0px;
+}
+.jumbotron p, .jumbotron h1 {
+  color: #353a41;
+  font-family: 'Palanquin', sans-serif;
+  text-shadow: #ccc 2px 2px 1px;
+  margin-left: 40px;
+}
+.jumbotron a{
+  margin-left: 40px;
+}
+
+.jumbotron .row .btn{
+  margin-top: 40px;
+}
+.dropdown{
+  color: #456ef9;
+}
+
+.header-align{
+  margin-top: 25px;
+  
+}
+
+.portfolio, .about{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.blog{
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+.profilePic{
+  
+  width: 300px;
+  height:300px;
+  border-radius: 50%;
+
+}
+
+.profilePicDiv{
+  width: 300px;
+  height: 300px;
+  background-image: url("https://github.com/nickveil/nickveil.github.io/blob/master/_assets/profile%202.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 55% 5%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #353a41;
+  display: inline-block;
+}
+
+.footer{
+  text-align: center;
+}
+.fa{
+  margin: 5px 10px;
+}
+
+.about p{
+  margin-top: 50px;
+}
+.about img {
+  margin-top: 70px;
+}
+
+.col-sm-2,{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.col-sm-8{
+  margin-right: 15px;
+  margin-left: 15px;
+  float: right;
+}
+.email{
+  text-align: right;
+}
+
+ul{
+  list-style-type: none;
+    font-family: 'Palanquin', sans-serif;
+}
+#portfolio{
+  min-height: 950px;
+  height:auto;
+  background-color: #353a41;
+  color: white;
+  margin: 0px;
+  padding: 60px 0px;
+}
+#contact{
+  min-height: 800px;
+  height:auto;
+  margin: 60px 0px;
+  padding: 60px 0px;
+}
+.contactInfo{
+  margin:auto;
+  display: inline-block;
+
+}
+}

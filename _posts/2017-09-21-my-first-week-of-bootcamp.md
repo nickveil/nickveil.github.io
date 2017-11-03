@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog_layout
 title: "My First Week of Bootcamp"
 ---
 
