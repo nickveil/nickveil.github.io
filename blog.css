@@ -45,9 +45,16 @@ p{
 }
 
 strong{
-  color: #aaa;
-
+  color: #007bff;
 }
+/*
+.fixed{
+  position:fixed;
+}
+
+.content{
+  position:relative;
+}*/
 
 .jumbotron {
 
