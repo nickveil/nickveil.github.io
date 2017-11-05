@@ -1,13 +1,14 @@
-# nickveil.github.io
-Awesome Work
+# Welcome to my portfolio and blog site
 
-Social Links:
+I am currently in the fall 2017 cohort with the Awesome Inc. U Web Developer Boot Camp.
 
-LinkedIn - https://linkedin.com/in/nicholas-veil
+## Social Links:
 
-Stack Overflow - https://stackoverflow.com/users/8492242/nveil?tab=profile
+	LinkedIn - https://linkedin.com/in/nick-veil
 
-GitHub - https://github.com/nickveil
+	Stack Overflow - https://stackoverflow.com/users/8492242/nveil?tab=profile
 
-Twitter - https://twitter.com/NickVeil
+	GitHub - https://github.com/nickveil
+
+	Twitter - https://twitter.com/NickVeil
 
