@@ -16,7 +16,7 @@ When I look back at last year, I had a whirlwind of a year. Plenty of ups and do
 
 
 2. Write a blog post every week.
-    * a. This goal will be pretty easy for the first few months as it is a requirement per the boot camp.However, it will be very challenging to keep up with writing weekly posts once I have a job.
+    * a. This goal will be pretty easy for the first few months as it is a requirement per the boot camp.However, it will be very challenging to keep up with writing weekly posts once I have a job. 
 
 
 3. Read eight books on coding.
