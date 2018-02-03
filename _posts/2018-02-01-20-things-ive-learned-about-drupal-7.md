@@ -44,6 +44,21 @@ The dashboard is set up so that the items used more frequently are on the left a
 
 ## 6. Content Workflow
 
-1. Setting up the Structure * Content types and features*
+1. Setting up the Structure - *Content types and features*
 2. Adding data fields
 3. Adding Content
+
+## 7. There are five layers of a Drupal site
+
+1. Nodes - Individual data. (*article, page, poll, etc.*)
+2. Modules - Addons or plugins that add functionality to your Drupal site. Modules can be part of the core that comes with installation, they can come from the Drupal community, or you can create your own.
+3. Blocks and menus - Chunks of information that display and navigate through your sites nodes.
+4. User Permissions - Assignable roles for other users or collaborators. Helpful in allowing others to add content to your site while limiting security or inoperability risks.
+5. Themes/Templates - The front end design or skin of the Drupal site.
+
+##  8. Taxonomy
+Taxonomy is the categorization of nodes for the site and allows users to define and organize terms. This feature is useful for creating a tagging system for nodes or linking nodes that share some type of relationships, such as linking a music artist page to an album page or vice versa.
+
+## 9. Field API
+Allows administrators to create information architecture for the requirements of individual sites instead of relying on an architecture solution that accommodates every situation. You can define new data types and create methods for collecting and displaying data on your site. Essentially, you are defining how the data for your field work, keeping it independant from the context of how the data is used.
+
