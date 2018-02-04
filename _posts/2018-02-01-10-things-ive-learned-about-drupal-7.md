@@ -1,9 +1,9 @@
 ---
 layout: blog_layout
-title: "20 Things I've Learned about Drupal 7"
+title: "10 Things I've Learned about Drupal 7"
 ---
 
-20 Things I've Learned about Drupal 7
+10 Things I've Learned about Drupal 7
 =========================
  
 This week I was fortunate enough to receive an invitation for a face to face interview with a prospective employer. I participated in a phone interview a few weeks back and while I thought the position would be a great opportunity to utilize my previous experience with customer service and managing small projects, the focus was on my knowledge of Drupal 7. I had very little. Actually, I had zero experience with Drupal 7 and very little with Drupal 8. Needless to say, I didn't feel comfortable with the conversation and did not think I would be asked to meet. But, luckily they saw something in my past experience to give me a second chance to which I am very grateful and fortunate. After speaking with a friend about these sequences of events, he mentioned that a good exercise for me to familiarize myself with Drupal 7 might be to write this blog post. And I completely agreed! 
