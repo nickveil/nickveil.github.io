@@ -31,7 +31,7 @@ __Password:__ Password for the admin account. *Use a good password. Remember thi
 Make sure these settings reflect the time zone the website is operating in. *Especially if there will be time sensitive information on your site*
 
 ### 3. Why a Content Management System (CMS)
-My first thought on "why use a CMS" instead of a framework or another method was that learning the basics had a much more gradual learning curve making it possible to get content published very quickly. However, as my friend pointed out during our discussion, frameworks work well when there is quite a bit of interaction between the site and the user. CMS makes a lot of sense when your site is presenting information to the user. When there is a lot of information, CMS's make it easier to disseminate that information quickly without affecting other areas of the site.
+My first thought on "why use a CMS" instead of a framework or another method was that learning the basics had a much more gradual learning curve making it possible to get content published very quickly. However, as my friend pointed out during our discussion, frameworks work well when there is quite a bit of interaction between the site and the user. CMS makes sense when your site is presenting a lot information to the user. When there is a lot of information, CMS's make it easier to disseminate that information quickly without affecting other areas of the site.
 
 ## 4. CMS Pyramid
 
@@ -60,5 +60,7 @@ The dashboard is set up so that the items used more frequently are on the left a
 Taxonomy is the categorization of nodes for the site and allows users to define and organize terms. This feature is useful for creating a tagging system for nodes or linking nodes that share some type of relationships, such as linking a music artist page to an album page or vice versa.
 
 ## 9. Field API
-Allows administrators to create information architecture for the requirements of individual sites instead of relying on an architecture solution that accommodates every situation. You can define new data types and create methods for collecting and displaying data on your site. Essentially, you are defining how the data for your field work, keeping it independant from the context of how the data is used.
+Allows administrators to create information architecture for the requirements of individual sites instead of relying on an architecture solution that accommodates every situation. You can define new data types and create methods for collecting and displaying data on your site. Essentially, you are defining how the data for your field work, keeping it independent from the context of how the data is used.
 
+## 10. Hooks
+Hooks allow the admin to implement custom features without having to modify Drupal's core code. Think of hooks as functions that allow you to change URLs, add content to pages, or set up custom database tables.
