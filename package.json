@@ -18,8 +18,10 @@
   "homepage": "https://github.com/nickveil/nickveil.github.io#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-shell": "^0.6.3",
     "lodash": "^4.17.19"
-  }
+  },
+  "dependencies": {}
 }
