@@ -19,8 +19,9 @@
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^4.0.2",
+    "gulp-exec": "^5.0.0",
     "gulp-sass": "^4.1.0",
-    "gulp-shell": "^0.6.3",
+    "gulp-shell": "^0.6.5",
     "lodash": "^4.17.19"
   },
   "dependencies": {}

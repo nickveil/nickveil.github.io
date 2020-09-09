@@ -4,7 +4,6 @@
 
 body{
   position: relative;
-  
 }
 
 p{
@@ -48,9 +47,15 @@ strong{
 
 }
 
+.marquee-bg {
+  min-height: 560px;
+  height: auto;
+  background:linear-gradient(rgba(155,155,155,0.3),rgba(255,255,255,1)), url(https://github.com/nickveil/nickveil.github.io/blob/master/_assets/Keyboard.jpg?raw=true);
+  margin-bottom:0px;
+}
 .jumbotron {
 
-  min-height: 900px;
+  min-height: 560px;
   height: auto;
   background:linear-gradient(rgba(155,155,155,0.3),rgba(255,255,255,1)), url(https://github.com/nickveil/nickveil.github.io/blob/master/_assets/Keyboard.jpg?raw=true);
   margin-bottom:0px;
@@ -86,15 +91,25 @@ strong{
   margin-bottom: 100px;
   margin-top: 150px;
 }
-.profilePic{
-  
+.profile-img{
+  position: relative;
+  top: 400px;
+  margin-left:auto;
   width: 300px;
   height:300px;
   border-radius: 50%;
-
+  background-image: url("https://github.com/nickveil/nickveil.github.io/blob/master/_assets/profile-pic.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 55% 5%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #353a41;
+  display: inline-block;
 }
 
-.profilePicDiv{
+/* .profilePicDiv{
   width: 300px;
   height: 300px;
   background-image: url("https://github.com/nickveil/nickveil.github.io/blob/master/_assets/profile%202.jpg?raw=true");
@@ -106,7 +121,95 @@ strong{
   border-radius: 50%;
   border: 1px solid #353a41;
   display: inline-block;
+} */
+.heading {
+  position: absolute;
 }
+
+.heading-title{
+  color: #353a41;
+  font-family: 'Palanquin', sans-serif;
+  text-shadow: #ccc 2px 2px 1px;
+  margin-left: 5%;
+  font-size: 8.1vw;
+}
+
+
+@media (max-width: 1023px) and (min-width: 576px){
+  .heading-title{
+    font-weight:600;
+    margin-left: 10%;
+    font-size:12vw;
+  }
+}
+
+@media (max-width: 575px){
+  .heading-title{
+    font-weight:900;
+    margin-left: 20%;
+    font-size:14vw;
+  }
+}
+
+.skill-section {
+  margin-top: 350px;
+}
+
+.card{
+  background: #ccc;
+  color: white;
+  height: 250px;
+  width: auto;
+  border: solid 5px #353a41;
+  border-radius: 15px;
+}
+.card-title{
+
+}
+.card-flip {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+.card-flip:hover .flip, .card-flip.hover .flip {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.card-flip,
+.front,
+.back {
+  width: 100%;
+  height: 480px;
+}
+
+.flip {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
 
 .footer{
   text-align: center;
