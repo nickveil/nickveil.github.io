@@ -2,54 +2,278 @@
 layout: default
 title: Nick Veil
 ---
-		
-		
-	<div class="jumbotron">
-		<div class="profilePicDiv mx-auto d-block">
-		</div>
-		<div class="header-align heading">
-		<h1 class="display-2 header-align">Full Stack Web Developer</h1>
-		<div class="col-sm-12">
-			<p> Based in Lincoln, NE. Experience with <strong>Drupal 7 & 8</strong>, <strong>Laravel</strong>, <strong>PHP</strong>, 
-				<strong>Vue.js</strong>, <strong>Bootstrap</strong>, <strong>HTML/CSS/JS</strong>, and <strong>SharePoint/PowerBI/Data Visualization Tools</strong>. </p>
-			<!-- <hr class="my-4"> -->
-			<p>If you are looking for help on a project or are looking to hire, I can help.<br> 
-				Interested in meeting up to discuss future possibilities? Let's talk.</p>
-			<div class="row">
-				<a class="btn btn-primary btn-md" href="#contact" role="button">Contact Me</a>
+	<section id="marquee" class="marquee-bg">
+		<div class="row">
+			<div class="">
+				<div class="heading col-12">
+					<h1 class="heading-title d-block">Full Stack Web Developer</h1>
+				</div>
 			</div>
+		</div>
+		<div class="profile-img mx-auto d-block"></div>
+	</section>
+	<section id="skills" class=" skills skill-section">
+		
+		<div class="container">
+			<h1 class="display-2 mt-5 mb-5">Skills and Experience</h1>
+			<div class="row mt-5">
+				<div class="col-sm-6">
+	        		<!-- Card Flip -->
+					<div class="card-flip">
+						<div class="flip">
+							<div class="front">
+								<!-- front content -->
+								<div class="flip-card">
+								  	<div class="card-block">
+										<h4 class="card-title">Web Development</h4>
+									</div>
+								</div>
+							</div>
+							<div class="back">
+								<!-- back content -->
+								<div class="flip-card">
+									<div class="card-block">
+										<div class="row">
+											<div class="col">
+												<p class="card-text">
+													HTML/CSS/JS<br>
+													JQuery<br>
+													Vue.js<br>
+													Bootstrap 3/4 <br>
+												</p>
+											</div>
+											<div class="col">
+												<p class="card-text">
+													PHP<br>
+													Laravel<br>
+													Drupal 7/8 <br>
+													Twig<br>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	        		<!-- End Card Flip -->
+				</div>
+				<div class="col-sm-6">
+	        		<!-- Card Flip -->
+					<div class="card-flip">
+						<div class="flip">
+							<div class="front">
+								<!-- front content -->
+								<div class="flip-card">
+								  	<div class="card-block">
+										<h4 class="card-title">Business Systems</h4>
+									</div>
+								</div>
+							</div>
+							<div class="back">
+								<!-- back content -->
+								<div class="flip-card">
+									<div class="card-block">
+										<div class="row">
+											<div class="col">
+												<p class="card-text">
+													SharePoint<br>
+													PowerBI<br>
+													Automate<br>
+													MS VBA<br>
+												</p>
+											</div>
+											<div class="col">
+												<p class="card-text">
+													Qualtrics<br>
+													Tableau<br>
+													LabView<br>
+													MiniTab<br>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	        		<!-- End Card Flip -->
+				</div>
+			</div>
+		</div>
+	</section>	
+		
 
-			<div class="row ">
-					<div class="links">
-						<a href="https://linkedin.com/in/nick-veil" target="_blank"><i class="fa fa-linkedin-square fa-2x"  aria-hidden="true"></i></a>
-						<a href="https://github.com/nickveil" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+	
+	<section id="portfolio">
+		<div class="container">
+			<h1 class="display-2" >Work Examples</h1>
+			<h6 class="text-muted">Some examples from the Univeristy of Kentucky College of Medicine</h6>
+			
+			<section class="row align-items-center ukwork">
+
+				<!-- UK COM Blog -->
+				<div class="col-md-6 col-sm-12">
+					<div class="card h-100 hilight-card text-center">
+						<img src="https://github.com/nickveil/nickveil.github.io/blob/master/_assets/UKCOM_Blog_Post_example.gif?raw=true" class="card-img-top" alt="A gif image showing the function of the UK College of Medicine Blog">
+						<div class="card-body">
+						  <h5 class="card-title">Blog</h5>
+						  <p class="card-text text-center">Drupal 8 hosted on Pantheon<br>
+															HTML / CSS / Drupal 8 Views</p>
+						  <button type="button center" class="btn btn-primary" data-toggle="modal" data-target="#ukBlogModal">
+							Learn More
+						  </button>
+						</div>
+					</div>
+				</div>
+				<!-- Blog modal -->
+				<div class="modal fade" id="ukBlogModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="UKBlogLabel">Univeristy of Kentucky College of Medicine Blog</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+						</div>
+						<div class="modal-body">
+							<img src="https://github.com/nickveil/nickveil.github.io/blob/master/_assets/UKCOM_Blog_Post_example.gif?raw=true" class="card-img-top" alt="A gif image showing the function of the UK College of Medicine Blog">
+						  <p>A Drupal 8 site hosted on Pantheon, intended to highlight research activity and accomplishments within the College of Medicine. 
+							  Initially intended as a dedicated blog for the college, the site was quickly transformed into a communication portal during the 
+							  Covid-19 pandemic. Highlighted in the image above is the functionality of the blog card shown on the landing page that is created 
+							  from a view and custom CSS.</p>
+						</div>
+						
+					  </div>
 					</div>
 				</div>
 
-			</div>
+				<!-- UK COM Pipeline -->
+				<div class="col-md-6 col-sm-12">
+					<div class="card h-100 hilight-card text-center">
+						<img src="https://github.com/nickveil/nickveil.github.io/blob/master/_assets/UKCOM_Pipeline_example.gif?raw=true" class="card-img-top" alt="A gif image showing the functionality of the UK College of Medicine Pipeline Information">
+						<div class="card-body">
+						  <h5 class="card-title">Pipeline Program</h5>
+						  <p class="card-text text-center">Drupal 7 <br>
+															HTML / CSS / jQuery / AJAX</p>
+						  <button type="button center" class="btn btn-primary" data-toggle="modal" data-target="#ukPipelineModal">
+							Learn More
+						  </button>
+						</div>
+					</div>
+				</div>
+				<!-- Pipeline modal -->
+				<div class="modal fade" id="ukPipelineModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="UKPipelineLabel">Univeristy of Kentucky College of Medicine Pipeline</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<img src="https://github.com/nickveil/nickveil.github.io/blob/master/_assets/UKCOM_Pipeline_example.gif?raw=true" class="card-img-top" alt="A gif image showing the functionality of the UK College of Medicine Pipeline Information">
+								<p>A feature on a College of Medicine Medical Education sub-domain that served as a companion piece to a brochure to 
+									help prospective students quickly navigate the summer medical camp application process. The challenge was to 
+									provide all information to prospective students while maintaining a relatively short page. Highlighted above is my 
+									solution built in Drupal 7 with a block plugin(PHP), custom CSS, and JavaScript to call the AJAX.</p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
 
+			</section>
 
-	</div>
+			<section class="row align-items-center ukwork">
+				
+				<!-- UK COM Strat Plan -->
+				<div class="col-md-6 col-sm-12">
+					<div class="card h-100 hilight-card text-center">
+						<img src="https://github.com/nickveil/nickveil.github.io/blob/master/_assets/UKCOM_Strat_Plan_example.gif?raw=true" class="card-img-top" alt="A gif image showing the dashboard of the UK College of Medicine Stratigic Plan">
+						<div class="card-body">
+						  <h5 class="card-title">Strategic Plan</h5>
+						  <p class="card-text text-center">Drupal 7 <br>
+															HTML / CSS / PHP </p>
+						  <button type="button center" class="btn btn-primary" data-toggle="modal" data-target="#ukStratPlanModal">
+							Learn More
+						  </button>
+						</div>
+					</div>
+				</div>
+				<!-- Strat Plan modal -->
+				<div class="modal fade" id="ukStratPlanModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="ukStratPlanLabel">Univeristy of Kentucky College of Medicine Strategic Plan</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<img src="https://github.com/nickveil/nickveil.github.io/blob/master/_assets/UKCOM_Strat_Plan_example.gif?raw=true" class="card-img-top" alt="A gif image showing the dashboard of the UK College of Medicine Stratigic Plan">
+								<p>A feature added to the College of Medicine domain to present the progress within the COMMITS initiative. 
+									Highlighted above is a dashboard built in Drupal 7 with custom CSS and data updated through the PHP filter 
+									on the node.</p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				
+				<!-- UK COM Leadership -->
+				<div class="col-md-6 col-sm-12">
+					<div class="card h-100 hilight-card text-center">
+						<img src="https://github.com/nickveil/nickveil.github.io/blob/master/_assets/UKCOM_College_Leadership_View_example.gif?raw=true" class="card-img-top" alt="A gif image showing the UK College of Medicine Leadership Directory">
+						<div class="card-body">
+						  <h5 class="card-title">Leadership Directory</h5>
+						  <p class="card-text text-center">Drupal 7 <br>
+															HTML / CSS / Views </p>
+						  <button type="button center" class="btn btn-primary" data-toggle="modal" data-target="#ukLeadershipModal">
+							Learn More
+						  </button>
+						</div>
+					</div>
+				</div>
+				<!-- Leadership modal -->
+				<div class="modal fade" id="ukLeadershipModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="ukLeadershipLabel">Univeristy of Kentucky College of Medicine Leadership Directory</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<img src="https://github.com/nickveil/nickveil.github.io/blob/master/_assets/UKCOM_College_Leadership_View_example.gif?raw=true" class="card-img-top" alt="A gif image showing the dashboard of the UK College of Medicine Stratigic Plan">
+								<p>My first assignment at the College of Medicine to revamp the college leadership directory look and mobile functionality. 
+									Highlighted above is the directory with responsive CSS, a new View, and updates to user profile attributes, that automatically 
+									populate based on the user's specified role and seniority.</p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				
+			</section>
+			<!-- UK COM Pipeline -->
+			
+				
+			<hr class="hr-on-black">
+			<h6 class="text-muted mt-5">Personal Projects</h6>
 
-
-	</div>
-	<div id="portfolio">
-		<div class="container">
-			<h1 class="display-2" >Some of My Work</h1>
 			<div class="row align-items-center portfolio">
 				<div class="col-lg">
-					
-						<img src="https://github.com/nickveil/nickveil.github.io/blob/master/_assets/OU_simon_screenshot.png?raw=true" width="300px" height="150px">
-					
+					<img src="https://github.com/nickveil/nickveil.github.io/blob/master/_assets/OU_simon_screenshot.png?raw=true" width="300px" height="150px">
 				</div>
 				<div class="col-lg">
 					<p class="description">An Oklahoma themed Simon clone create with Vue.js. Features include dificulty progression, current sequence indicator and longest sequence indicator.</p>
-					
 					<a class="btn btn-primary btn-md" target="_blank" href="https://github.com/nickveil/vue-simon" role="button">Code</a>
-					<a class="btn btn-primary btn-md" target="_blank" href="https://vue-simongame.herokuapp.com/" role="button">Demo</a>
-									
+					<a class="btn btn-primary btn-md" target="_blank" href="https://vue-simongame.herokuapp.com/" role="button">Demo</a>			
 				</div>
-
 			</div>
 
 
@@ -85,8 +309,10 @@ title: Nick Veil
 
 			</div>
 		</div>
-	</div>
-	<div id="contact" data-target="#navbar-example2" data-offset="0">
+	</section>
+
+
+	<section id="contact" data-target="#navbar-example2" data-offset="0">
 		<div class="container">
 			<h1 class="display-2">A Little Bit About Me</h1>
 			<div class="col col-sm-12 about">		
@@ -94,7 +320,10 @@ title: Nick Veil
 			</div>
 
 			<div class="col col-sm-12 about">
-				<p>I was looking for a new challenge and recieved an opportunity to join the Awesome Inc Bootcamp, diving into the world of web development. It has been exciting and look forward to applying what I learned in the classroom to everyday problems. I bring along transferable experiences in management, customer service and quality control. I enjoy being active in the community, trying new things and watching or competing in several sports.</p>
+				<p>Three years ago, I transitioned from a career in manufacturing to pursue a career in web development. While at the 
+					University of Kentucky HealthCare, I have been able to develop my programming skills in both higher education and healthcare 
+					environments. New to Lincoln, I have enjoyed the welcoming and friendly atmosphere. I look forward to discovering new challenges 
+					in the technology industry while utilizing my experience in team building, project management, web development, and customer service. </p>
 			</div>
 			<div class="col col-sm-12 about">
 				<div class="row text-center">
@@ -105,7 +334,7 @@ title: Nick Veil
 				</div>	
 			</div>		
 		</div>
-	</div>
+	</section>
 		
 		
 		
