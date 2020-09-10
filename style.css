@@ -236,6 +236,18 @@ strong{
           transform: rotateY(180deg);
 }
 
+.modal {
+  color:#353a41;
+}
+
+.card > img {
+  height: 250px;
+}
+
+.hr-on-black {
+  background-color:#868e96;
+  line-height: 1;
+}
 
 .footer{
   text-align: center;
