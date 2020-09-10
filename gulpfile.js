@@ -35,7 +35,7 @@ const {src, dest} = require('gulp');
 function style () {
     return gulp.src('/_app/alt.scss')
     .pipe(sass())
-    .pipe(gulp.dest('/style.css',))
+    .pipe(gulp.dest('/css/style.css',))
     .pipe(browserSync.stream());
 }
 
