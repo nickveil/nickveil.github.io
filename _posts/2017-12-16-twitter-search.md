@@ -18,7 +18,7 @@ and
 foreach ($tracker as $track) { 
     $trackUpdate = $events
     	->where( 'tracker_id', $track->id )
-      ->max('date');
+      	->max('date');
 ```
 
 I have been writing *“Hello, thank you for taking the time to review my application information…”*. And while my focus has shifted it is still important to keep practicing writing code and I decided to work on the things we touched on in class but didn’t go too in-depth into for me to have a firm grasp.

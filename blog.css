@@ -129,7 +129,7 @@ strong{
   margin-top: 70px;
 }
 
-.col-sm-2,{
+.col-sm-2{
   margin-right: 15px;
   margin-left: 15px;
 }
@@ -166,4 +166,12 @@ ul{
   display: inline-block;
 
 }
+
+.blog-img {
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.code-red {
+  color: #bd4147 !important;
 }
