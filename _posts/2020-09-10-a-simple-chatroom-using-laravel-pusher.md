@@ -87,7 +87,7 @@ php artisan ui vue --auth
 </pre>
 This command installs views for the layout, registration, and login;  sets up the routes for authentication; and generates a HomeController to handle post-login requests. The package also generates several pre-built controllers. More info can be found in the [documentation](https://laravel.com/docs/7.x/authentication#authentication-quickstart).
 Additionally, the User model and migration tables associated with the user are created which we will need to store our authorized user information.
-Before we can run our migration, we have to set up our database. I use PostgreSQL but three other [databases are supported](https://laravel.com/docs/7.x/database#introduction). This connection is also setup in the ```.env``` file.
+Before we can run our migration, we have to set up our database. I use PostgreSQL but other [databases are supported](https://laravel.com/docs/7.x/database#introduction). Connecting the database for our dev work is also done in the  ```.env``` file.
 <pre class="code-red">
 DB_CONNECTION=pgsql
 DB_HOST=localhost
@@ -97,3 +97,29 @@ DB_USERNAME=XXXXXXXXXXXX
 DB_PASSWORD=XXXXXXXXXXXX
 </pre>
 With our database connection set, we can now run ``` php artisan migrate``` in the teminal.
+
+### Adding the Message Model
+We'll start by creating a Model with a corresponding migration file.
+```php artisan make:model Message -m```
+This generates a ```Message.php``` model in the ```/app``` folder of our project that contains our Message class. Open our ```Message.php``` file and we will need to specify the table column where our messages will be stored to the database by adding a ```protected $fillable ``` variable like so:
+<pre class='code-red'>
+/**
+     * Fields that are mass assignable
+     * 
+     * @var array
+     */
+    protected $fillable = ['message'];
+</pre>
+Now, we have to set up our database schema to store our messages. In ```app/database/migrations``` folder we want to open the ```messages``` table migration that was created with our ```make:model -m``` command above. Within the ``` up()``` function, we have to update the schema for our messages table to look like the code below:
+<pre class="code-red">
+Schema::create('messages', function (Blueprint $table) {
+            $table->increments('id');
+            $table->integer('user_id')->unsigned();
+            $table->text('message');
+            $table->timestamps();
+        });
+</pre>
+With our model and schema updated we can now run the migration in the terminal:
+```php artisan migrate```
+
+** As a side note, if something looks messed up in the messages table(ie. 'messages' is spelled wrong) you can correct the error in your migrations table and run PHP artisan migrate:refresh``` in the terminal which will rollback your and re-execute the migrations. This is a good option at the beginning of a project when there might not be as much data loss, but if you're further along in your project, look at the [Migrations Sections](https://laravel.com/docs/8.x/migrations#running-migrations) of the Laravel docs to find a suitable solution.
