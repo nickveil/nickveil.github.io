@@ -154,3 +154,21 @@ Next, we will do something similar in the ```User``` model by adding a messages 
 </pre>
 
 Notice the ```belongsTo``` and ```hasMany``` methods that are being returned in each function? These are part of the [Eloquent ORM](https://laravel.com/docs/7.x/eloquent-relationships#introduction) which is included with Laravel.
+
+### Defining the Route
+
+Now we can define our routes. In ```routes/web.php```,  we can set this up by replacing the default Route with: 
+<pre class='code-red'>
+Auth::routes();
+
+Route::get('/', 'ChatsController@index');
+Route::get('messages', 'ChatsController@fetchMessages'); 
+Route::post('messages', 'ChatsController@sendMessage'); 
+</pre>
+Now a couple things we want to consider. First, we have changed the ```/home``` route so we will have to change the ```$redirectTo``` variable in both ```app/Http/Controllers/Auth/LoginController.php``` and ```app/Http/Controllers/Auth/RegisterController.php```. 
+
+We will change it to:
+<pre class='code-red'>
+protected $redirectTo = '/'; 
+</pre>
+which sends it to our newly created path after a user registers or logs in. Second, the ChatsController defined in our routes is not set up yet, so lets do that now.
