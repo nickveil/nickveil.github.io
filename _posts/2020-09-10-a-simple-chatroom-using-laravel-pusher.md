@@ -122,4 +122,35 @@ Schema::create('messages', function (Blueprint $table) {
 With our model and schema updated we can now run the migration in the terminal:
 ```php artisan migrate```
 
-** As a side note, if something looks messed up in the messages table(ie. 'messages' is spelled wrong) you can correct the error in your migrations table and run PHP artisan migrate:refresh``` in the terminal which will rollback your and re-execute the migrations. This is a good option at the beginning of a project when there might not be as much data loss, but if you're further along in your project, look at the [Migrations Sections](https://laravel.com/docs/8.x/migrations#running-migrations) of the Laravel docs to find a suitable solution.
+** As a side note, if something looks messed up in the messages table(ie. 'messages' is spelled wrong) you can correct the error in your migrations table and run PHP artisan migrate:refresh``` in the terminal which will rollback your and re-execute the migrations. This is a good option at the beginning of a project when there might not be as much data loss, but if you're further along in your project, look at the [Migrations Section](https://laravel.com/docs/7.x/migrations#running-migrations) of the Laravel docs to find a suitable solution.
+
+### Setting up the User and Message Relationship
+
+Back to our models, we have to define the relationships between User and Message.
+First, we will update the ```app/Message.php``` model by adding a user function to the Message class: 
+<pre class="code-red">
+ /**
+     * A message belongs to a user
+     * 
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+</pre>
+
+Next, we will do something similar in the ```User``` model by adding a messages function to the User class:
+<pre class='code-red'>
+/**
+     * A user can have many messages
+     * 
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function messages()
+    {
+        return $this->hasMany(Message::class);
+    }
+</pre>
+
+Notice the ```belongsTo``` and ```hasMany``` methods that are being returned in each function? These are part of the [Eloquent ORM](https://laravel.com/docs/7.x/eloquent-relationships#introduction) which is included with Laravel.
