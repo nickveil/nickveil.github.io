@@ -16,6 +16,8 @@ Since users need to be authenticated, we will need to add it to our project. Luc
 composer require laravel/ui:^2.4
 php artisan ui vue --auth
 </pre>
+** Notice once php artisan scaffold vue for us there is a message ```Please run "npm install && npm run dev" to compile your fresh scaffolding.``` in the terminal. We're not going to compile until the end in this tutorial but if you want to see the progress of the app as it's built, you will have to run this command before running ```php artisan serve```
+
 This command installs views for the layout, registration, and login;  sets up the routes for authentication; and generates a HomeController to handle post-login requests. The package also generates several pre-built controllers. More info can be found in the [documentation](https://laravel.com/docs/7.x/authentication#authentication-quickstart).
 Additionally, the User model and migration tables associated with the user are created which we will need to store our authorized user information.
 Before we can run our migration, we have to set up our database. I use PostgreSQL but other [databases are supported](https://laravel.com/docs/7.x/database#introduction). Connecting the database for our dev work is also done in the  ```.env``` file.

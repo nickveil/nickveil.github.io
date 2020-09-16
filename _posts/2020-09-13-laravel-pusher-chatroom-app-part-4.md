@@ -89,5 +89,5 @@ which defines where this blade file should insert itself into the ```layouts/app
 And the ```<chat-form>``` and ```<chat-messages>``` elements which are Vue components we still need to create.
 
 
-In the next post we'll build and register the Vue components. [View Part 4 here.](http://localhost:3000/2020/09/13/laravel-pusher-chatroom-app-part-4.html)
+In the next post we'll build and register the Vue components. [View Part 5 here.](http://localhost:3000/2020/09/14/laravel-pusher-chatroom-app-part-5.html)
 
